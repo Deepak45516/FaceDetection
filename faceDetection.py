@@ -10,13 +10,13 @@ import cv2
 # In[2]:
 
 
-face_cascade = cv2.CascadeClassifier('/home/doruk/Downloads/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 
 # In[3]:
 
 
-color_image= cv2.imread("/home/doruk/Downloads/Deepak photo.jpg")
+color_image= cv2.imread("Deepak photo.jpg")
 
 
 # In[4]:
